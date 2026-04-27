@@ -15,11 +15,11 @@ Please note that due to copyright restrictions, the complete set of musical samp
 * perceptionvalidation/: Audio stimuli (.mp3) used for perceptual validation.
 * mozartdice_midi/: Original MIDI samples (.mid) from the Mozart Dice system.
 * musicbox_generation/: AI-generated music pieces based on the Mozart Dice algorithm.
-* src/: Python scripts and Jupyter notebooks for data analysis and music information retrieval.
+* analysis/: Python scripts and Jupyter notebooks for data analysis and music information retrieval.
 
-## Source Code Details (src/)
+## Source Code Details (analysis/)
 
-The scripts in the src/ directory document the analysis and visualization processes presented in the paper:
+The scripts in the analysis/ directory document the analysis and visualization processes presented in the paper:
 
 1. listenerStudyAnalysis.ipynb
 - Paper Section: Section 4.6 (Perceptual Validation)
