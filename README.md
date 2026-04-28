@@ -3,10 +3,7 @@
 This repository contains the project materials and source code for our ISMIR 2026 submission. We investigate the computational design principles of Mozart's Musikalisches Würfelspiel (K. 516f), focusing on how stylistic coherence is maintained despite random selection.
 
 ## Research Overview
-We propose a two-factor explanation for the stylistic consistency of the dice game:
-1. The Tonal Floor: 88.6% of the 176 measures cluster within a narrow D-major region (sigma=0.822), significantly lower than Haydn, Beethoven, and Schubert.
-
-2. Deceptive Variety: A dissociation between pitch-class containment (Tymoczko distance 0.508, lowest among all corpora) and registral displacement (raw distance 2.143), producing variation without tonal disruption.
+We investigate why Mozart's dice game produces musically coherent results despite random assembly, and identify the computational design principles that make this possible.
 
 ## Important Notice on Data Accessibility
 Please note that due to copyright restrictions, the complete set of musical samples and corpora used in this study cannot be fully hosted in this public repository. Consequently, the provided source code is intended for methodological transparency and review of the analytical process, rather than for direct execution or reproduction of the results without the original dataset.
@@ -22,7 +19,7 @@ Please note that due to copyright restrictions, the complete set of musical samp
 
 The scripts in the `analysis/` directory document the experimental processes and results presented in the paper:
 
-### 1. retestwithBeethoven.ipynb
+### 1. fourcomposerscomparison.ipynb
 * **Paper Sections**: 
     * Section 4.1: Tonal Homogeneity
     * Section 4.2: Pitch-Class Space Clustering
